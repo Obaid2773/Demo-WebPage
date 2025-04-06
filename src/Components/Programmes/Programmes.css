@@ -41,3 +41,17 @@ position: relative;
     padding-top: 0;
     transition: all 0.35s ease-in-out;
 }
+
+
+@media (max-width: 658px) {
+    .programmes{
+        flex-direction: column;
+    }
+    .programe{
+        flex-basis: 20%;
+        margin: 20px;
+    }
+    .programe img{
+        width: 100%;
+    }
+}

@@ -14,3 +14,14 @@ margin-bottom: 40px;
     border-radius: 10px;
    
 }
+
+@media (max-width: 850px) {
+    .gallery img{
+        flex-wrap: wrap;
+        width: 48%;
+        margin-bottom: 20px;
+    }
+    .gallery img:nth-child(2n){
+        margin-right: 0;
+    }
+}

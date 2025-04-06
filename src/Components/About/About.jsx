@@ -2,12 +2,12 @@ import React from 'react'
 import './About.css'
 import about_img from '../../assets/about.png'
 import play_icon from '../../assets/play-icon.png'
-const About = () => {
+const About = ({setShowVideo}) => {
   return (
     <div className='about'>
         <div className="about-left">
             <img src={about_img} alt="" className='about-img' />
-            <img src={play_icon} alt="" className='play-icon' />
+            <img src={play_icon} alt="" className='play-icon' onClick={() => setShowVideo(true)}/>
         </div>
         <div className="about-right">
             <h3>About College</h3>
@@ -15,6 +15,7 @@ const About = () => {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus. Quisquam, voluptatibus. Quisquam, voluptatibus. Quisquam, voluptatibus. Quisquam, voluptatibus.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus. Quisquam, voluptatibus. Quisquam, voluptatibus. Quisquam, voluptatibus. Quisquam, voluptatibus.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus. Quisquam, voluptatibus. Quisquam, voluptatibus. Quisquam, voluptatibus. Quisquam, voluptatibus.</p>
+           
         </div>
     </div>
   )

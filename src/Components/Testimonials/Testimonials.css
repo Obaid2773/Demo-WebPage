@@ -55,3 +55,35 @@ background: #212EA0;
 .user-info h3{
     color: #212EA0
 }
+
+@media (max-width: 850px) {
+    .testimonials{
+        padding: 0 40px;
+    }
+    .next-btn , .back-btn {
+        padding: 10px;
+        width: 35px;
+    }
+    .slider ul li{
+        width: 100%;
+    }
+    .slide{
+        padding:10px;
+    }
+    .slide img{
+        width :50px;
+        border: 3px solid #212EA0;
+    }
+}
+@media (max-width: 850px) {
+    .user-info{
+        display: block;
+        font-size: 18px;
+    }
+    .user-info h3{
+        font-size: 18px;
+    }
+    .slider p{
+        font-size: 16px;
+    }
+}
